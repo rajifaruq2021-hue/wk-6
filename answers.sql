@@ -2,6 +2,9 @@
 -- Assignment: Week 6
 -- Name: RAJI FARUQ ISHOLA
 
+-- Select the correct database to work with.
+USE salesDB;
+
 -- =============================================================================
 -- Question 1: Get employee details with their office code using an INNER JOIN.
 -- =============================================================================
