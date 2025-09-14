@@ -1,12 +1,12 @@
 -- PLP Database Design & Programming with SQL
 -- Assignment: Week 6
--- Name: Raji Faruq Ishola 
+-- Name: RAJI FARUQ ISHOLA
 
 -- =============================================================================
 -- Question 1: Get employee details with their office code using an INNER JOIN.
 -- =============================================================================
 
--- I'm joining employees and offices to get details for everyone.
+-- Joining employees and offices to get details for everyone.
 -- INNER JOIN makes sure only employees with a valid office are shown.
 SELECT
     e.firstName,
@@ -22,7 +22,7 @@ INNER JOIN
 -- Question 2: Get product details with their product line using a LEFT JOIN.
 -- =============================================================================
 
--- Here, I'm listing all products and adding their product line description.
+-- Listing all products and adding their product line description.
 -- LEFT JOIN ensures all products appear, even if a description is missing.
 SELECT
     p.productName,
@@ -37,9 +37,9 @@ LEFT JOIN
 -- Question 3: Get the first 10 orders with customer info using a RIGHT JOIN.
 -- =============================================================================
 
--- I'm combining customer and order info here.
+-- Combining customer and order info.
 -- RIGHT JOIN starts with all orders and adds customer data if it matches.
--- Limiting to 10 just to keep the list short as requested.
+-- Limiting to 10 as requested.
 SELECT
     o.orderDate,
     o.shippedDate,
