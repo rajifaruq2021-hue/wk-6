@@ -53,3 +53,4 @@ FROM
 RIGHT JOIN
     orders AS o ON c.customerNumber = o.customerNumber
 LIMIT 10;
+
